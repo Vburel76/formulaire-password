@@ -10,7 +10,7 @@
                     <a class="nav-link fs-3 " href="home.php">Home</a>
                 </li>
                 <li class=" nav-item placement">
-                    <a class="nav-link fs-3" href="#">Paramètres</a>
+                    <a class="nav-link fs-3" href="settings.php">Paramètres</a>
                 </li>
                 <li class="nav-item placement2">
                     <a class="nav-link fs-3" href="login.php">Login</a>

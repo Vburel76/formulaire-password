@@ -8,7 +8,6 @@
 
 
     <header class="border border-dark tailleHeader d-table-cell align-middle bg-light">
-
         <h1 class="text-center ">Site de rencontre</h1>
     </header>
     <?php include 'elements/navBar.php' ?>
