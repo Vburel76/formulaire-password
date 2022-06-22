@@ -12,15 +12,15 @@ require_once '../controllers/login-controller.php';
 
 
 
-    <h1 class="m-5 text-center">Formulaire de connection</h1>
+    <h1 class="m-5 text-center">Connexion</h1>
 
     <form action="" method="POST">
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center m-0 p-0">
             <div class="col-3 border border-secondary rounded shadow p-4">
 
                 <div class="my-2">
-                    <label for="login">login</label><span class="ms-2 text-danger"><?= isset($error['login']) ? $error['login'] : '' ?></span>
+                    <label for="login">Identifiant</label><span class="ms-2 text-danger"><?= isset($error['login']) ? $error['login'] : '' ?></span>
                     <br>
                     <input type="text" id="login" name="login" placeholder="" value="<?= isset($_POST['login']) ? $_POST['login'] : '' ?>">
                 </div>
@@ -46,7 +46,7 @@ require_once '../controllers/login-controller.php';
 
 
 
-
+    
 </body>
 
 </html>

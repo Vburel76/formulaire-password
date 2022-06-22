@@ -3,13 +3,13 @@
 <?php require_once '../data/Data.php' ?>
 
 
-<body>
+<body class="bg-secondary">
 
 
 
-    <header class="border border-dark tailleHeader d-table-cell align-middle">
+    <header class="border border-dark tailleHeader d-table-cell align-middle bg-light">
 
-        <h1 class="text-center">Site de rencontre</h1>
+        <h1 class="text-center ">Site de rencontre</h1>
     </header>
     <?php include 'elements/navBar.php' ?>
 
@@ -30,8 +30,8 @@
     <!-- list -->
     <div class="row m-0 p-0 justify-content-center">
 
-        <div class="col-11 border table-responsive ">
-            <table class="table text-center table-striped">
+        <div class="col-11  table-responsive ">
+            <table class="table text-center table-dark table-striped">
                 <thead>
                     <tr>
 
@@ -49,10 +49,10 @@
                         <tr class="text-center align-middle">
 
                             <td><img class="image text-center" src="../public/img/<?= $value['picture'] ?>.jpg" alt="">
-                            <td class="border"><?= $value['name'] ?> </td>
-                            <td class="border"><?= $value['search'] ?></td>
+                            <td><?= $value['name'] ?> </td>
+                            <td><?= $value['search'] ?></td>
                             <td>
-                               <button class="btn btn-dark"><i class="bi bi-heart"></i></button>
+                               <button class="btn btn-outline-light"><i class="bi bi-heart"></i></button>
                             </td>
                         </tr>
 
